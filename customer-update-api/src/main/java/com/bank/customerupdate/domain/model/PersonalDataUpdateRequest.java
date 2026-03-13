@@ -16,7 +16,6 @@ public class PersonalDataUpdateRequest {
 
     public PersonalDataUpdateRequest(
             Long id,
-            Long customerId,
             String address,
             String email,
             String phone) {
