@@ -1,3 +1,11 @@
 spring:
   application:
     name: customer-update-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer_update_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

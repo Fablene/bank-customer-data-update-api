@@ -15,7 +15,7 @@ public class PersonalDataUpdateRequest {
     private LocalDateTime submittedAt;
 
     public PersonalDataUpdateRequest(
-            Long id,
+            Long customerId,
             String address,
             String email,
             String phone) {
@@ -37,6 +37,17 @@ public class PersonalDataUpdateRequest {
         return customerId;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
     public UpdateRequestStatus getStatus() {
         return status;
     }
